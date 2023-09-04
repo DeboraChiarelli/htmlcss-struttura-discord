@@ -21,6 +21,10 @@
     background-color: pink;
 }
 
+.bg-aqua {
+    background-color: aqua;
+}
+
 .bg-grey {
     background-color: grey;
 }
@@ -44,46 +48,42 @@
     max-width: 800px;
     margin: 0 auto;
     display: flex;
+    padding: 20px;
 }
 
 .col-2 {
     flex-basis: calc((100% / 12) * 2);
-    display: flex;
 }
 
 .col-3 {
     flex-basis: calc((100% / 12) * 3);
-    display: flex;
 }
 
 .col-4 {
     flex-basis: calc((100% / 12) * 4);
-    display: flex;
 }
 
 .col-6 {
-    flex-basis: calc((100% / 12) * 6);
-    display: flex;
+    flex-basis: calc((100% / 12) * 6);    
 }
 
 .col-5 {
     flex-basis: calc((100% / 12) * 5);
-    display: flex;
+   
 }
 
 .col-7 {
     flex-basis: calc((100% / 12) * 7);
-    display: flex;
+ 
 }
 
 .col-10 {
     flex-basis: calc((100% / 12) * 10);
 }
 
+
 .col-3-right {
     width: calc((100% / 12) * 3);
-    display: flex;
-    justify-content: flex-end;
 }
 
 
@@ -103,5 +103,32 @@
 
 .bg-white {
     background-color: white;
+}
+
+.bg-green {
+    background-color: green;
+    min-height: 200px;
+}
+
+.height150 {
+    min-height: 150px;
+}
+
+.bg-darkgray {
+    background-color: rgb(58, 58, 58);
+}
+
+.bg-marine {
+    background-color: aquamarine;
+}
+
+.border-white {
+    border: 1px solid;
+    color: white;
+}
+
+.black {
+    color: black;
+    background-color: pink;
 }
 
