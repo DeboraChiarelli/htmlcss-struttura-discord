@@ -13,15 +13,95 @@
     padding: 10px;
 }
 
+.bg-yellow {
+    background-color: yellow;
+}
+
+.bg-pink {
+    background-color: pink;
+}
+
+.bg-grey {
+    background-color: grey;
+}
+
+.bg-lightgrey {
+    background-color: lightgrey;
+}
+
+.height100 {
+    height: 100px;
+}
+
 .row {
     display: flex;
+    flex-basis: 100%;
     border: 1px dashed;
-    background-color: yellow;
-    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .container {
     max-width: 800px;
     margin: 0 auto;
+    display: flex;
+}
+
+.col-2 {
+    flex-basis: calc((100% / 12) * 2);
+    display: flex;
+}
+
+.col-3 {
+    flex-basis: calc((100% / 12) * 3);
+    display: flex;
+}
+
+.col-4 {
+    flex-basis: calc((100% / 12) * 4);
+    display: flex;
+}
+
+.col-6 {
+    flex-basis: calc((100% / 12) * 6);
+    display: flex;
+}
+
+.col-5 {
+    flex-basis: calc((100% / 12) * 5);
+    display: flex;
+}
+
+.col-7 {
+    flex-basis: calc((100% / 12) * 7);
+    display: flex;
+}
+
+.col-10 {
+    flex-basis: calc((100% / 12) * 10);
+}
+
+.col-3-right {
+    width: calc((100% / 12) * 3);
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.bg-blue {
+    background-color: blue;
+    padding: 20px;
+}
+
+.row-pink {
+    display: flex;
+    justify-content: center;
+}
+
+.just-center {
+    justify-content: center;
+}
+
+.bg-white {
+    background-color: white;
 }
 
