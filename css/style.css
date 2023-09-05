@@ -132,3 +132,6 @@
     background-color: pink;
 }
 
+.just-between {
+    justify-content: space-between;
+}
